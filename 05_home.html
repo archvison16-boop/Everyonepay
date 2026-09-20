@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>EveryonePay - Home</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="screen">
+  <div style="background:#251713; padding:18px 18px 22px;">
+    <div class="flex-between" style="margin-bottom:18px;">
+      <div class="logo-row">
+        <svg width="34" height="26" viewBox="0 0 86 64" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 14 C16 14 5 23 5 36 C5 49 16 58 30 58 C40 58 47 53 51 45 L41 41 C39 45 35 48 30 48 C23 48 18 44 16 38 L52 38" stroke="#D9622E" stroke-width="9" fill="none" stroke-linecap="round"/>
+          <path d="M59 58 L59 14 C68 14 76 22 76 32 C76 42 68 50 59 50 C53 50 48 47 45 42" stroke="#C8451F" stroke-width="9" fill="none" stroke-linecap="round"/>
+        </svg>
+        <span>EveryonePay</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:14px;">
+        <i class="ti ti-bell" style="color:#A8786A; font-size:19px;"></i>
+        <img src="https://i.pravatar.cc/100?img=12" alt="Profile" style="width:30px; height:30px; border-radius:50%; object-fit:cover; border:1.5px solid #D9622E;">
+      </div>
+    </div>
+    <div class="input-bar" style="background:#1C1411;"><i class="ti ti-search"></i><span>Search transactions, contacts, bills</span></div>
+  </div>
+
+  <div style="padding:16px 16px 0;">
+    <div class="card flex-between">
+      <div>
+        <p class="muted" style="font-size:12px; margin:0 0 4px;">Wallet balance</p>
+        <p style="color:#F2E4DC; font-size:22px; font-weight:500; margin:0;">&#8377;12,480.50</p>
+      </div>
+      <button style="background:#D9622E; border:none; color:#2A1206; font-size:13px; font-weight:500; padding:9px 16px; border-radius:10px;">+ Add money</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <p class="section-title">Quick actions</p>
+    <div class="grid-4">
+      <div class="grid-item"><div class="grid-icon" style="background:#3D2419;"><i class="ti ti-scan" style="color:#E8975E; font-size:22px;"></i></div><span class="grid-label">Scan QR</span></div>
+      <div class="grid-item"><div class="grid-icon" style="background:#D9622E;"><i class="ti ti-send" style="color:#2A1206; font-size:22px;"></i></div><span class="grid-label">To contact</span></div>
+      <div class="grid-item"><div class="grid-icon" style="background:#3D2419;"><i class="ti ti-building-bank" style="color:#E8975E; font-size:22px;"></i></div><span class="grid-label">To bank</span></div>
+      <div class="grid-item"><div class="grid-icon" style="background:#3D2419;"><i class="ti ti-wallet" style="color:#E8975E; font-size:22px;"></i></div><span class="grid-label">Chk balance</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="flex-between" style="margin-bottom:12px;"><p class="section-title" style="margin:0;">Recharge and bill pay</p><span class="section-link">View all</span></div>
+    <div class="grid-4">
+      <div class="grid-item"><div class="grid-icon small" style="background:#2A1A14; border:0.5px solid #3D2419;"><i class="ti ti-device-mobile" style="color:#E8975E; font-size:19px;"></i></div><span class="grid-label small">Mobile</span></div>
+      <div class="grid-item"><div class="grid-icon small" style="background:#2A1A14; border:0.5px solid #3D2419;"><i class="ti ti-bulb" style="color:#E8975E; font-size:19px;"></i></div><span class="grid-label small">Electricity</span></div>
+      <div class="grid-item"><div class="grid-icon small" style="background:#2A1A14; border:0.5px solid #3D2419;"><i class="ti ti-droplet" style="color:#E8975E; font-size:19px;"></i></div><span class="grid-label small">Water</span></div>
+      <div class="grid-item"><div class="grid-icon small" style="background:#2A1A14; border:0.5px solid #3D2419;"><i class="ti ti-credit-card" style="color:#E8975E; font-size:19px;"></i></div><span class="grid-label small">Card bill</span></div>
+    </div>
+  </div>
+
+  <div class="section scrollpad">
+    <div class="flex-between" style="margin-bottom:10px;"><p class="section-title" style="margin:0;">Recent transactions</p><span class="section-link">See all</span></div>
+    <div class="list-row">
+      <div class="list-row-left"><div class="icon-tile"><i class="ti ti-arrow-up-right" style="color:#D9622E;"></i></div><div><p class="row-title">Rahul Sharma</p><p class="row-sub">Today, 4:32 pm</p></div></div>
+      <span class="amount-debit">- &#8377;500</span>
+    </div>
+    <div class="list-row">
+      <div class="list-row-left"><div class="icon-tile"><i class="ti ti-arrow-down-left" style="color:#7DAE8C;"></i></div><div><p class="row-title">Salary credit</p><p class="row-sub">Yesterday, 9:00 am</p></div></div>
+      <span class="amount-credit">+ &#8377;45,000</span>
+    </div>
+    <div class="list-row">
+      <div class="list-row-left"><div class="icon-tile"><i class="ti ti-bulb"></i></div><div><p class="row-title">Electricity bill</p><p class="row-sub">2 days ago</p></div></div>
+      <span class="amount-debit">- &#8377;1,240</span>
+    </div>
+  </div>
+
+  <div class="bottom-nav">
+    <div class="nav-item"><i class="ti ti-home" style="color:#D9622E;"></i><span style="color:#D9622E;">Home</span></div>
+    <div class="nav-item"><i class="ti ti-receipt muted"></i><span class="muted">History</span></div>
+    <div class="nav-fab"><i class="ti ti-scan"></i></div>
+    <div class="nav-item"><i class="ti ti-credit-card muted"></i><span class="muted">Cards</span></div>
+    <div class="nav-item"><i class="ti ti-user muted"></i><span class="muted">Profile</span></div>
+  </div>
+</div>
+</body>
+</html>

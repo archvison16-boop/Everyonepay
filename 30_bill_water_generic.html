@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>EveryonePay - Water Bill Payment</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="screen">
+  <div class="header">
+    <i class="ti ti-arrow-left back"></i>
+    <span class="title">Water bill</span>
+  </div>
+
+  <div style="padding:18px 16px 0;">
+    <div class="input-bar">
+      <i class="ti ti-droplet"></i>
+      <span style="flex:1;">Select water board</span>
+      <i class="ti ti-chevron-down" style="color:#D9622E;"></i>
+    </div>
+  </div>
+
+  <div class="section">
+    <label class="muted" style="font-size:11px; display:block; margin-bottom:6px;">Consumer / connection number</label>
+    <div class="input-bar">
+      <i class="ti ti-hash"></i>
+      <span style="color:#F2E4DC;">WB7741052093</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div style="display:flex; align-items:center; gap:8px;">
+      <input type="checkbox" checked style="width:16px; height:16px; accent-color:#D9622E;">
+      <span class="muted" style="font-size:11px;">Save this connection for faster payment next time</span>
+    </div>
+  </div>
+
+  <div class="section" style="margin-top:10px;">
+    <p class="section-title">Recently used connections</p>
+    <div class="list-row">
+      <div class="list-row-left">
+        <div class="icon-tile"><i class="ti ti-droplet"></i></div>
+        <div>
+          <p class="row-title">Delhi Jal Board</p>
+          <p class="row-sub">WB7741052093 &middot; Last paid &#8377;420</p>
+        </div>
+      </div>
+      <i class="ti ti-chevron-right muted"></i>
+    </div>
+  </div>
+
+  <div style="padding:20px 16px 22px; position:absolute; bottom:0; left:0; right:0;">
+    <div class="btn-primary">Fetch bill</div>
+  </div>
+</div>
+</body>
+</html>
